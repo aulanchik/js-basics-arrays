@@ -6,9 +6,6 @@
 const family = ['John', 'George', 'Ringo', 'Susan', 'Pete', 'Ann'];
 
 console.log('Array.prototype.indexOf()');
-console.table({ IndexOf: family.indexOf('Ringo'), Element: 'Ringo' });
-console.table({ IndexOf: family.indexOf('Andrew'), Element: 'Andrew'  });
-
-family.push('Andrew');
-
-console.table({ IndexOf: family.indexOf('Andrew'), Element: 'Andrew' });
+console.log('Family: ', family);
+console.log({ 'Family member': 'Ringo', IndexOf: family.indexOf('Ringo') });
+console.log({ 'Family member': 'Andrew', IndexOf: family.indexOf('Andrew') });

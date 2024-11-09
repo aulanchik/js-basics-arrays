@@ -8,4 +8,4 @@ const people2 = ['Pete', 'Ann'];
 const newPeople = people.concat(people2);
 
 console.log('Array.prototype.concat():');
-console.table({ 'People': newPeople });
+console.log('Concat result: ', newPeople);

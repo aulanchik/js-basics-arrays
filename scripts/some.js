@@ -9,6 +9,7 @@ const divisibleByThree = someNumbers.filter((number) => number % 3 === 0);
 const hasDivisibleByThree = someNumbers.some((number) => number % 3 === 0);
 
 console.log('Array.prototype.some():');
-console.table({ 'All numbers': someNumbers });
-console.log('Divisible by 3:', divisibleByThree);
+console.log('All numbers:', someNumbers);
 console.log('Has divisible by 3:', hasDivisibleByThree);
+console.log('Divisible by 3:', divisibleByThree);
+

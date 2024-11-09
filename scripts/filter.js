@@ -9,8 +9,8 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const evenNumbers = numbers.filter((number) => number % 2 === 0);
 
 console.log('Array.prototype.filter():');
-console.table({ 'All numbers': numbers });
-console.table({ 'Only even numbers': evenNumbers });
+console.log('All numbers:', numbers);
+console.log('Only even numbers:', evenNumbers);
 
 
 const lessons = [
@@ -43,4 +43,4 @@ const results = lessons
   .map(x => x.title);
 
 console.log('Array.prototype.filter()');
-console.table({'Filtered by two criterias and sorted in ascending order': results});
+console.log('Filtered by two criterias and sorted in ascending order:', results);

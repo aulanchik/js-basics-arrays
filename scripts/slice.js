@@ -7,5 +7,5 @@ const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const slicedNumbers = number.slice(2, 6);
 
 console.log('Array.prototype.slice():');
-console.table({ 'All numbers': number });
-console.table({ 'Sliced numbers': slicedNumbers });
+console.log('All numbers: ', number);
+console.log('Sliced numbers: ', slicedNumbers);

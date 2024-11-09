@@ -16,4 +16,4 @@ const searchTerm = quotes[2];
 const lastIndex = quotes.lastIndexOf(searchTerm);
 
 console.log('Array.prototype.lastIndexOf():');
-console.table({ LastIndexOf: lastIndex, SearchTerm: searchTerm });
+console.log({ SearchTerm: searchTerm, LastIndexOf: lastIndex });
