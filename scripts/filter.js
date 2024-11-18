@@ -5,14 +5,6 @@
 // It creates a new array that includes only those elements from the original array
 // for which the callback(item, i, arr) returns true.
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const evenNumbers = numbers.filter((number) => number % 2 === 0);
-
-console.log('Array.prototype.filter():');
-console.log('All numbers:', numbers);
-console.log('Only even numbers:', evenNumbers);
-
-
 const lessons = [
   {
     title: 'JavaScript Array methods in depth - join',
@@ -42,5 +34,6 @@ const results = lessons
   .sort((a, b) => b.views - a.views)
   .map(x => x.title);
 
-console.log('Array.prototype.filter()');
+
+console.log('Array.prototype.filter():');
 console.log('Filtered by two criterias and sorted in ascending order:', results);

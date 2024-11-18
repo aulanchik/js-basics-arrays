@@ -1,8 +1,8 @@
 'use strict';
 
 // Array.prototype.includes()
-// The includes() method determines whether an array includes a certain element,
-// returning true or false as appropriate.
+// The Array.prototype.includes() method determines whether an array includes a certain element.
+// Returns true or false as appropriate.
 
 const fruits = ['apple', 'banana', 'orange', 'kiwi', 'pineapple'];
 

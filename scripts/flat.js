@@ -1,9 +1,8 @@
 'use strict';
 
-// Array.prototype.includes()
-// The includes() method determines whether an array includes a certain element, returning true or false as appropriate.
-// Note: Array.prototype.flat() returns a new array with all sub-array elements concatenated into it and then flattened into a new array.
-// Note 2: The flat() method is capable of removing empty slots from the array.
+// Array.prototype.flat()
+// Returns a new array with all sub-array elements concatenated into it and then flattened into a new array.
+// The Array.prototype.flat() method is capable of removing empty slots from the array.
 
 const shoppingList = ['milk', 'eggs', 'bread', ['apple', 'banana'], 'chocolate', 'yogurt', [['toothpaste', 'shampoo'], ['shaving cream', 'deodorant']]];
 
